@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #BECFDE;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #44A2B2;
+    transition: .5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #065461;
+}
+
+* {
+    scroll-behavior: smooth !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dx-header-filter-empty {
+    color: rgba(149, 149, 149, .5) !important;
+}
+
+.dx-datagrid .dx-header-filter {
+    color: #118b9f;
+}
+
+.required-field .v-label::before {
+    content: "*\00a0";
+    color: red;
+}
+
+.err-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.glassmorph {
+    background: rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
+
+.glassmorph-8 {
+    background: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+}
+
+.v-field--disabled {
+    opacity: 0.6 !important;
+}
